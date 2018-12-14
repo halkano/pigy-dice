@@ -229,7 +229,9 @@ th {
     max-width: 100% !important;
   }
   p,
-  h2,
+  h2{
+    text-align: center;
+  }
   h3 {
     orphans: 3;
     widows: 3;
@@ -1582,11 +1584,12 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
-  background-color: blue;
+  margin-top: 20px;
+  background-color:skyblue;
 }
 @media (min-width: 768px) {
   .container {
