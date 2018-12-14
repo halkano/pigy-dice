@@ -11,6 +11,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: yellow;
 }
 article,
 aside,
@@ -53,6 +54,16 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 b,
+
+#instructions{
+  display:none;
+  position:relative;
+  align-items:center;
+  left:300px;
+  background-color:green;
+  width:500px;
+}
+
 strong {
   font-weight: bold;
 }
@@ -62,7 +73,17 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
+  text-align: center;
+  }
+  .h2 {
+  text-align: center;
 }
+#game1, #game2{
+  position:relative;
+  left: 100px;
+  font-size:large;
+}
+
 mark {
   color: #000;
   background: #ff0;
@@ -98,6 +119,13 @@ hr {
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
+#result{
+  text-align:center;
+  position: relative;
+  top:100px;
+  right:70px;
+
+}
 pre {
   overflow: auto;
 }
@@ -119,7 +147,11 @@ textarea {
 }
 button {
   overflow: visible;
+  position:relative;
+  left: 40%;
+  top:80px;
 }
+
 button,
 select {
   text-transform: none;
