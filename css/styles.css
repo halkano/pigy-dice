@@ -1,9 +1,12 @@
+body{
+  background-color: skyblue;
+}
 .wrapper
 	 {
 	 	width: 1100px;
 	 	background-color: #fff;
 	 	margin: 0px auto;
-	 	min-height: 900px;
+	 	min-height: 620px;
 	 	margin-top: 40px;
 	 	border: 1px solid#999;
 	 	border-bottom: 3px solid#999;
@@ -30,31 +33,29 @@
   text-align:center;
   font-size: 100px;
   font-weight: 100px;
-  color: #EB4D4D;
+  color: red;
   margin-bottom: 130px;
 }
 .active {
-  background-color: #f7f7f7;}
+  background-color: inherit;
+}
   .active .player-name{ font-weight: 300}
   .active .player-name::after{
     content:"\2022";
-    color: #EB4D4D;
+    color:blue;
     top: -7px;
     right: 10px;
   }
   .player-current-box {
-  background-color: #EB4D4D;
-  color: #fff;
   width: 80px;
+  background-color: green;
   margin: auto;
   padding: 12px;
   text-align: center;
 }
 .player-current-label{
-  text-transform: uppercase;
   margin-bottom: 10px;
   font-size: 12px;
-  color: #222;
 }
 .player-current-score {
   font-size: 30px;
@@ -64,13 +65,22 @@ button{
   width: 200px;
   left: 50%;
   transform: translate(-50%);
-  color: #555;
-  background: none;
   border: none;
-  font-family: lato;
   font-size: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-weight: 300;
-  transition: background-color0.3s,color0.3s;
+  background-color: yellow;
+}
+button:hover{
+    font-weight: 600;
+    margin-right: 20px;}
+
+}
+.btn-new{top:45px;}
+.btn-roll{top: 500px;}
+.btn-hold{top: 550px;}
+.dice {
+  position: absolute;
+  left: 50%;
+  top: 178px;
+  transform: translateX(-50%);
+  height: 100px;
 }
