@@ -6,8 +6,8 @@
       12/18/2018.
 
 ### Description:
-Pig Dice is web application game that allows two players to play against each other.
-The player who manages to score  DOUBLES is declared a winner.+  
+Pig Dice is web application game that allows two players to play against each other using two dice.
+The player who manages to score  DOUBLES is declared a winner. 
 ### BDD:
 #### This app is therefore expected to work as following:
 | Behavior | Expectation|
